@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Bai4 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // nhap so vao tu ban phim
 
         System.out.print("nhap so nguyen tu 1-12: ");
         int month = scanner.nextInt();
 
-        switch (month) {
+        switch (month) { // dung switch kiem tra
             case 1:
                 System.out.println("Thang 1");
                 break;
@@ -47,9 +47,13 @@ public class Bai4 {
                 System.out.println("Thang 12");
                 break;
             default:
-                System.out.println("So khong hop le ");
+                System.out.println("So khong hop le "); // so kh hop le neu nam ngoai tu 1 - 12
                 break;
         }
         scanner.close();
     }
 }
+
+// Bài 4: (switch –case) Viết chương trình nhập vào một số nguyên từ 1 - 12 từ
+// bàn phím và hiển thị ra tháng tương ứng với số đó (nhập vào số 1 thì sẽ hiển
+// thị ra là "Tháng 1“).
