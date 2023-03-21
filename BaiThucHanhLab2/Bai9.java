@@ -25,7 +25,7 @@ public class Bai9 {
             }
         }
 
-        System.out.println("so ky tu trong chuoi: " + upperCaseCount);
+        System.out.println("so ky tu viet hoa trong chuoi: " + upperCaseCount);
         System.out.println("so ky tu viet thuong trong chuoi: " + lowerCaseCount);
         System.out.println("so chu so trong chuoi: " + digitCount);
     }
